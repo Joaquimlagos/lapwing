@@ -8,9 +8,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 
 import java.util.ArrayList;
 
-/**
- * Represents a driver's license, serializable to (and from) Ion.
- */
 public final class BatchAgroindustryTraceability implements RevisionData {
 
     private ArrayList<BatchAgroindustry> batchAgroindustry;

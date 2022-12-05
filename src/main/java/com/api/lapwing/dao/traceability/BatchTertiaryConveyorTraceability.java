@@ -7,10 +7,6 @@ import com.api.lapwing.dao.business.Conveyor;
 import com.api.lapwing.dao.business.Distributor;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-
-/**
- * Represents a driver's license, serializable to (and from) Ion.
- */
 public final class BatchTertiaryConveyorTraceability implements RevisionData {
 
     private TertiaryBatchConveyor tertiaryBatchConveyor;
