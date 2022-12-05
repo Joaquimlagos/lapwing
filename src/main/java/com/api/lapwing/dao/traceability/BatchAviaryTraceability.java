@@ -3,21 +3,12 @@ package com.api.lapwing.dao.traceability;
 import com.api.lapwing.dao.RevisionData;
 import com.api.lapwing.dao.batch.BatchAviary;
 import com.api.lapwing.dao.business.Aviary;
-import com.api.lapwing.dao.business.Provider;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import java.util.ArrayList;
-
-/**
- * Represents a driver's license, serializable to (and from) Ion.
- */
 public final class BatchAviaryTraceability implements RevisionData {
-
     private BatchAviary batchAviary;
-
     private Aviary aviary;
-
     @JsonCreator
     public BatchAviaryTraceability(
             @JsonProperty("BatchAviary") BatchAviary batchAviary,

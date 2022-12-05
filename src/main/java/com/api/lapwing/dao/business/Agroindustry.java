@@ -4,9 +4,6 @@ import com.api.lapwing.dao.RevisionData;
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-/**
- * Represents a driver's license, serializable to (and from) Ion.
- */
 public final class Agroindustry implements RevisionData {
     private final BusinessData businessData;
 
